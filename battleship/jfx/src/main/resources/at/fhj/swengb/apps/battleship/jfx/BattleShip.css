@@ -62,11 +62,10 @@
 }
 
 .label {
-    -fx-background-image: url("metalPlate.jpg");
     -fx-font-size: 32px;
     -fx-font-family: "Arial Black";
-    -fx-text-fill: #818181;
-    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+    -fx-text-fill: #616161;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,1) , 6, 0.0 , 0 , 2 );
 }
 
 .textField .content{
