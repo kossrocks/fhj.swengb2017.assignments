@@ -90,7 +90,7 @@ case class BattleShipGame(battleField: BattleField,
         sunkShips = sunkShips + vessel
 
         if (battleField.fleet.vessels == sunkShips) {
-          log("G A M E   totally  O V E R")
+          log("Everything is destroyed, HOW COULD YOU?!?")
         }
       }
 
