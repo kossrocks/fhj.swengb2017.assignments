@@ -1,13 +1,8 @@
-
-#battleShip {
-    //-fx-background-color:#ff6600;
-}
-
 .newGameButton {
     -fx-color: #3e4142;
     -fx-border-color: #3e4142;
     -fx-text-fill: white;
-    -fx-font-size: 14px;
+    -fx-font-size: 14pt;
 }
 
 .newGameButton:hover {
@@ -25,7 +20,7 @@
     -fx-color: #3e4142;
     -fx-border-color: #3e4142;
     -fx-text-fill: white;
-    -fx-font-size: 14px;
+    -fx-font-size: 14pt;
 }
 
 .loadGameButton:hover {
@@ -43,7 +38,7 @@
     -fx-color: #3e4142;
     -fx-border-color: #3e4142;
     -fx-text-fill: white;
-    -fx-font-size: 14px;
+    -fx-font-size: 14pt;
 }
 
 .saveGameButton:hover {
@@ -64,7 +59,14 @@
 
 .battleShip {
     -fx-background-image: url("479066843.jpg");
-    -fx-text-fill: black;
+}
+
+.label {
+    -fx-background-image: url("metalPlate.jpg");
+    -fx-font-size: 32px;
+    -fx-font-family: "Arial Black";
+    -fx-text-fill: #818181;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
 }
 
 .textField .content{
